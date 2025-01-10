@@ -29,7 +29,7 @@ Ready to grow your business with TorioxLead? Reach out to us today and let us he
 ---
 
 ### Contact Us
-For inquiries, feedback, or support, please contact us at **[Your Contact Email]** or visit our website at **[Your Website URL]**.
+For inquiries, feedback, or support, please contact us at **Sahidkth7917@gmail.com** or visit our website at **https://torioxlead.onrender.com/**.
 
 ---
 
@@ -41,5 +41,4 @@ We welcome contributions to improve TorioxLead. To get started:
 4. Push to the branch: `git push origin feature-name`.
 5. Open a pull request.
 
-### License
-This project is licensed under the **[Your License]**.
+
