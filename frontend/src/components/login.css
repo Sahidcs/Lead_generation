@@ -1,0 +1,13 @@
+.btn >
+button{
+ width: 200px;
+ color: black;
+}
+.logout{
+width: 100%;
+height: 100vh;
+background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

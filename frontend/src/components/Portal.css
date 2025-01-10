@@ -1,0 +1,11 @@
+.portal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+@media screen and (max-width: 768px) {
+    .portal{
+        display: flex;
+        flex-direction: column;
+    }
+}

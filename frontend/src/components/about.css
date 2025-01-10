@@ -1,0 +1,66 @@
+/* Container styles */
+.about-container {
+    padding: 20px;
+
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Animated background styles */
+  .animated-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: linear-gradient(45deg, #007bff, #00bcd4, #007bff, #00bcd4);
+    background-size: 400% 400%;
+    animation: gradientAnimation 100s linear infinite;
+  }
+  
+  /* Content styles */
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  /* Heading styles */
+  .about-heading {
+    font-size: 46px;
+    color: #080808;
+  }
+  
+  /* Subheading styles */
+  .about-subheading {
+    font-size: 24px;
+    color: #37ff00;
+    margin-top: 30px;
+  }
+  
+  /* Description styles */
+  .about-description {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: aliceblue;
+  }
+  
+  /* Keyframes for background animation */
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  

@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.container {
+ 
+    width: auto;
+}
+
+.popover-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.contact-form-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.onoverlay {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    z-index: 1001;
+    max-width: 90%;
+    width: 400px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+  
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.close-button {
+    background-color: #ccc;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .contact-form-container {
+        max-width: 100%;
+        width: 90%;
+    }
+}

@@ -1,0 +1,45 @@
+footer{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(4, 4, 4);
+    color: aliceblue;
+    flex-wrap: nowrap;
+    overflow: auto;
+  
+}
+footer >div{
+    flex-direction: column;
+    margin: 1vmax;
+}
+footer >div >img{
+    width: 4vmax;
+    height: 3vmax;
+    margin: 1vmax;
+}
+footer >div >h1{
+    color:rgb(39, 140, 255);
+    }
+footer >div >a {
+    color: aliceblue;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    h1 {
+      font-size: medium;
+    }
+    footer{
+        font-size: .9rem;
+    }
+    
+}
+.banner::after{
+    content: "";
+    width: 100vw;
+    height: 100vmin;
+    background-color: rgb(253, 253, 253);
+    position: absolute;
+    clip-path: polygon(51% 70%, 0% 100%, 100% 100%);
+    clip-path: polygon(100% 45%, 0% 100%, 100% 100%);
+}
