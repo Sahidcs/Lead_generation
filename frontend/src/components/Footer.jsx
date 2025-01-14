@@ -22,9 +22,9 @@ function footer() {
          <div className="rightFooter">
          <h4>Follow Us</h4>
          
-         <a href="http://instagram.com/ramvijay2406">Instagram<br></br></a>
-        <a href="http://youtube.com/6packprogramemr">Youtube</a><br></br>
-        <a href="http://instagram.com/ram">Facebook</a>
+         <a href="https://www.instagram.com/itz_sahid.ansari/">Instagram<br></br></a>
+        <a href="http://youtube.com">Youtube</a><br></br>
+        <a href="http://facebook.com/">Facebook</a>
          </div>
         </footer>
     );
